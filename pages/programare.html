@@ -48,6 +48,13 @@
             <h1>Programează o Ședință</h1>
             <p class="subtitle">Completează formularul de mai jos pentru a programa o consultație. Îți vom confirma programarea în cel mai scurt timp.</p>
 
+<form action="https://api.sheetmonkey.io/form/aPVpkvtuNtrb5KDLaSvaom" method="post">
+  <!-- Put HTML input fields in here and see how they fill up your sheet -->
+  <label>Example Field: <input type="text" name="Example Header" required /></label>
+  <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+  <input type="submit" value="Submit" />
+</form>
+            
             <form id="appointmentForm" onsubmit="showModal(event)">
                 <div class="form-grid">
                     <div class="form-group"><label>Nume Complet *</label><input type="text" required></div>
