@@ -50,18 +50,72 @@
 
             <br>
             
-<form action="https://api.sheetmonkey.io/form/aPVpkvtuNtrb5KDLaSvaom" method="post" id="appointmentForm" onsubmit="showModal(event)">
-   <div class="form-grid">
-                    <div class="form-group"><label>Nume Complet *</label><input type="text" required></div>
-                    <div class="form-group"><label>Email *</label><input type="email" required></div>
-                    <div class="form-group"><label>Telefon *</label><input type="tel" required></div>
-                    <div class="form-group"><label>Tip Serviciu *</label><select required><option>Consiliere Individuală</option></select></div>
-                    <div class="form-group"><label>Specialist (Optional)</label><select><option>Selectează...</option></select></div>
-                    <div class="form-group"><label>Data Preferată *</label><input type="date" required></div>
-                    <div class="form-group"><label>Ora Preferată *</label><select required><option>09:00</option></select></div>
-                </div>
-                <div class="form-group full-width"><label>Mesaj (Optional)</label><textarea rows="4"></textarea></div>
-                <button type="submit" class="submit-btn">Trimite Programarea</button>
+<form action="https://api.sheetmonkey.io/form/aPVpkvtuNtrb5KDLaSvaom" method="post" id="appointmentForm">
+
+<div class="form-grid">
+
+<div class="form-group">
+<label>Nume Complet *</label>
+<input type="text" name="Nume Complet" required>
+</div>
+
+
+<div class="form-group">
+<label>Email *</label>
+<input type="email" name="Email" required>
+</div>
+
+
+<div class="form-group">
+<label>Telefon *</label>
+<input type="tel" name="Telefon" required>
+</div>
+
+
+<div class="form-group">
+<label>Tip Serviciu *</label>
+<select name="Tip Serviciu" required>
+<option>Consiliere Individuală</option>
+</select>
+</div>
+
+
+<div class="form-group">
+<label>Specialist (Optional)</label>
+<select name="Specialist">
+<option>Selectează...</option>
+</select>
+</div>
+
+
+<div class="form-group">
+<label>Data Preferată *</label>
+<input type="date" name="Data Preferată" required>
+</div>
+
+
+<div class="form-group">
+<label>Ora Preferată *</label>
+<select name="Ora Preferată" required>
+<option>09:00</option>
+</select>
+</div>
+
+
+</div>
+
+
+<div class="form-group full-width">
+<label>Mesaj (Optional)</label>
+<textarea name="Mesaj" rows="4"></textarea>
+</div>
+
+
+<button type="submit" class="submit-btn">
+Trimite Programarea
+</button>
+
+
 </form>
         </section>
 
